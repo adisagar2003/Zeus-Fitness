@@ -10,6 +10,7 @@ export default function Navbar() {
     <Icon name="fire" size={30} color="orange" />
     <TouchableOpacity><Text style={{color:'white',fontSize:20,textDecorationLine:'underline'}}>Progress</Text></TouchableOpacity>
     <TouchableOpacity><Text style={{color:'white',fontSize:20}}>Year</Text></TouchableOpacity>
+    <TouchableOpacity><Icon name='cube' style={{color:'white',fontSize:20}} /></TouchableOpacity>
     </SafeAreaView>
   )
 }

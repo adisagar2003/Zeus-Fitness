@@ -1,5 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import BottomNav from './components/BottomNav';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 
@@ -9,6 +10,7 @@ export default function App() {
     <View style={{backgroundColor:'#1f1f1f'}}>
    <Navbar />
   <Home />
+  <BottomNav />
     </View>
   );
 }
